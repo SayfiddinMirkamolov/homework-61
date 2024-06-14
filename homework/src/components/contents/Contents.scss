@@ -1,0 +1,53 @@
+.Contents {
+  .Contents-content {
+    .title {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 8px;
+      color: #22343d;
+      h1 {
+        text-align: center;
+        font-size: 34px;
+        font-weight: 700;
+      }
+      p {
+        text-align: center;
+        font-weight: 500;
+      }
+    }
+    .cards {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 32px;
+      .card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        max-width: 350px;
+        .card-texts {
+          max-width: 300px;
+          padding: 24px 30px 40px 24px;
+          p {
+            color: #22343d;
+            padding-bottom: 12px;
+          }
+          h3 {
+            font-size: 20px;
+            font-weight: 700;
+            color: #22343d;
+          }
+        }
+        &:hover {
+          box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+            rgba(17, 17, 26, 0.1) 0px 8px 24px,
+            rgba(17, 17, 26, 0.1) 0px 16px 56px;
+          transition: 0.4s;
+          .card-texts h3 {
+            color: #02897a;
+            transition: 0.4s;
+          }
+        }
+      }
+    }
+  }
+}

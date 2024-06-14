@@ -1,0 +1,97 @@
+.Price {
+  padding-top: 120px;
+  .Price-content {
+    .title {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding-bottom: 50px;
+      h1 {
+        text-align: center;
+        font-size: 34px;
+        font-weight: 700;
+      }
+      p {
+        text-align: center;
+      }
+    }
+    .price-cards {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-bottom: 150px;
+      .card {
+        box-shadow: 0px 2px 8px 0px #00000040;
+        padding: 24px 75px 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        border-radius: 8px;
+        .card-texts {
+          h2 {
+            color: #22343d;
+          }
+          p {
+            color: #22343d;
+          }
+          .narx {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding-bottom: 16px;
+            h1 {
+              font-size: 76px;
+              font-weight: 700;
+              color: #02897a;
+            }
+            .pul {
+              text-align: left;
+              h2 {
+                color: #02897a;
+              }
+              p {
+                color: #afafaf;
+              }
+            }
+          }
+          p {
+            padding: 10px 0;
+          }
+          button {
+            background-color: #02897a;
+            border: 0;
+            color: #fff;
+            border-radius: 6px;
+            padding: 11px 19px;
+            margin-top: 38px;
+          }
+        }
+        &:hover {
+          background-color: #02897a;
+          transition: 0.6s;
+          box-shadow: none;
+          h2 {
+            color: #fff;
+          }
+          p {
+            color: #fff;
+          }
+          .narx {
+            h1 {
+              color: #fff;
+            }
+            .pul h2 {
+              color: #fff;
+            }
+          }
+          button {
+            background-color: #fff;
+            color: #02897a;
+            transition: 0.6s;
+          }
+        }
+      }
+    }
+  }
+}

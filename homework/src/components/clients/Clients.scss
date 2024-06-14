@@ -1,0 +1,51 @@
+.Clients {
+  .Clients-content {
+    .title {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding-bottom: 50px;
+      text-align: center;
+      gap: 8px;
+      h1 {
+        text-align: center;
+        font-size: 34px;
+        font-weight: 700;
+      }
+      p {
+        text-align: center;
+      }
+    }
+    .cards {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      .card {
+        max-width: 327px;
+        border-radius: 5px;
+        border: 1px solid #dedede;
+        .card-texts {
+          padding: 28px 26px 22px 26px;
+          img {
+            padding-bottom: 16px;
+          }
+          p {
+            color: #737373;
+            padding-bottom: 16px;
+          }
+          .user {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            .user-text {
+              max-width: 81px;
+              h4 {
+                color: #02897a;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
